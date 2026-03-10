@@ -173,7 +173,7 @@ public class GestorButacas {
 	public static void pintarSala(char[][] sala) {
 		System.out.println("SALA DE BUTACAS:");
 		// Pintamos la sala con un bucle con encabezado de columnas y filas
-		System.out.println("   1 2 3 4 5 6 7 8 9 10");
+		System.out.println("0 1 2 3 4 5 6 7 8 9");
 		for (int i = 0; i < sala.length; i++) {
 			System.out.print((i + 1) + "  ");
 			for (int j = 0; j < sala[i].length; j++) {
