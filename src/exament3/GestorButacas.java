@@ -11,7 +11,10 @@ public class GestorButacas {
 
 	public static void main(String[] args) {		
 		// Definimos la matriz para las butacas
-		char[][] sala = new char[6][10];
+		final int FILAS = 6;
+		final int COLUMNAS = 10;
+		// DEFINIDAS COMO CONSTANTES
+		char[][] sala = new char[FILAS][COLUMNAS];
 		
 		// Rellenamos el array entero a valores L (Libre)
 		inicializarSala(sala);
